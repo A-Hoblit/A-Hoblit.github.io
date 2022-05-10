@@ -1,7 +1,7 @@
 ## Fifth Spoon
 A recipe app made with React and the Spoonacular API.
-    - Search Recipes
-    - Save recipes locally
+-    - Search Recipes
+-    - Save recipes locally
 
 Currently hosted on Github Pages.
 
