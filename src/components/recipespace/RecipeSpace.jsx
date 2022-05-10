@@ -88,6 +88,9 @@ const Recipespace = (props) => {
     if (JSON.stringify(tempRecipe) != '{}'){
         var tempList = savedRecipeList;
         const oldList = JSON.parse(window.localStorage.getItem("savedList"));
+
+        console.log(oldList);
+        console.log("test");
   
         if (oldList != null) {
           tempList = oldList;
@@ -103,15 +106,16 @@ const Recipespace = (props) => {
             tempList.splice(tempList.findIndex(f => f.title === tempRecipe.title), 1);
             setRecipeData(tempList);
           }
-        //}
-  
-  
   
         tempList.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
       
         setSavedRecipeData(tempList);
         localStorage.setItem("savedList", JSON.stringify(tempList));
         setCopyRecipe({});
+      }
+      else{
+        const oldList = JSON.parse(window.localStorage.getItem("savedList"));
+        setSavedRecipeData(oldList);
       }
     }
 
