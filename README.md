@@ -5,7 +5,6 @@ This project was created for California State University Fullerton's Software En
 Ths project is a React.js website connected to the Spoonacular API. The website can search for recipes with any number of keywords and save them to a locally stored JSON list for future use. This project was developed over a single semester with a proposal and implementation.
 
 This site works best on the Firefox web browser.
-Currently hosted at: [Github Pages](a-Hoblit.github.io/Recipe-App)
 
 Screenshots:
 
