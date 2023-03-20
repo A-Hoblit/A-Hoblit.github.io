@@ -7,6 +7,7 @@ Ths project is a React.js website connected to the Spoonacular API. The website 
 This site works best on the Firefox web browser.
 
 Screenshots:
-
-![1](https://user-images.githubusercontent.com/70081309/211219795-53b54f6a-dd6c-4f31-a627-2619e5a2e34b.png)
-![2](https://user-images.githubusercontent.com/70081309/211219796-496bfec7-8617-4b21-b7cc-53118c419456.png)
+Searching
+![Recipe App](https://user-images.githubusercontent.com/70081309/226251322-017113e5-a096-4fe2-a0a4-861381ba9c5d.png)
+Saved Recipes
+![Recipe App List](https://user-images.githubusercontent.com/70081309/226251329-fb915346-404b-4261-8051-4c366ca5fe07.png)
